@@ -8,7 +8,7 @@ Linux Ubuntu 18.04
 - Driver version: 550.90.07
 - CUDA version: 10.1
 
-Python 3.8
+Python 3.7
 - tensorflow-gpu==2.1.0 (cudnn=7.6.0)
 - scipy
 - pandas
