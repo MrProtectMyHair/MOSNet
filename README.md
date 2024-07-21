@@ -21,7 +21,6 @@ For example,
 conda create -n mosnet python=3.7
 conda activate mosnet
 pip install -r requirements.txt
-pip install numpy==1.19.5
 conda install cudnn=7.6.0
 ```
 
