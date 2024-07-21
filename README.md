@@ -18,7 +18,7 @@ Python 3.7
 ### Environment set-up
 For example,
 ```
-conda create -n mosnet python=3.8
+conda create -n mosnet python=3.7
 conda activate mosnet
 pip install -r requirements.txt
 pip install librosa==0.8.1
