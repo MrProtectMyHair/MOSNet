@@ -33,7 +33,7 @@ pip install h5py==2.10.0
 ### Evaluating your custom waveform samples
 
 1. Put the waveforms you wish to evaluate in a folder. For example, `<path>/<to>/<samples>`
-2. Run `python python ./custom_test.py --rootdir <path>/<to>/<samples>`
+2. Run `python ./custom_test.py --rootdir <path>/<to>/<samples>`
 
 This script will evaluate all the `.wav` files in `<path>/<to>/<samples>`, and write the results to `<path>/<to>/<samples>/MOSnet_result_raw.txt`. By default, the `pre_trained/cnn_blstm.h5` pretrained model is used. If you wish to use other models, please specify a different `--pretrained_model` and also change `from model import <model_to_be_used>`.
 
