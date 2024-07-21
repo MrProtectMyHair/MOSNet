@@ -25,6 +25,7 @@ pip install librosa==0.8.1
 pip install numpy==1.19.5
 conda install cudnn=7.6.0
 pip install h5py==2.10.0
+pip install protobuf==3.20
 ```
 
 ## Usage
