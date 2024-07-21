@@ -21,11 +21,8 @@ For example,
 conda create -n mosnet python=3.7
 conda activate mosnet
 pip install -r requirements.txt
-pip install librosa==0.8.1
 pip install numpy==1.19.5
 conda install cudnn=7.6.0
-pip install h5py==2.10.0
-pip install protobuf==3.20
 ```
 
 ## Usage
